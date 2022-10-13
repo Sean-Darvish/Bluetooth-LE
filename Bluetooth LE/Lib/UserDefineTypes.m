@@ -1,8 +1,7 @@
 //
-//  UserDefineTypes.m
-//  Fuelpak FP3
+//  UserDefineTypes.m  
 //
-//  Created by Mike Saradeth on 11/1/17.
+//  Created by Shahab Darvish on 11/1/19.
 //
 
 #import "UserDefineTypes.h"

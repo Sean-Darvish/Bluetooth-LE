@@ -1,8 +1,8 @@
 //
-//  Utilsw.swift
+//  Donglesw.swift
 //  Bluetooth LE
 //
-//  Created by Shahab Darvish on 10/12/22.
+//  Created by Shahab Darvish on 10/2/20.
 //
 
 
@@ -11,9 +11,9 @@ import UIKit
 
 enum ActiveDevice
 {
-   case Classic
-   case Ble
-   case DeviceDisconnected
+    case Classic
+    case Ble
+    case DeviceDisconnected
     
 }
 
@@ -29,6 +29,12 @@ enum BtStatus
     
 }
 
+struct Device: Codable {
+    let id:String
+    var name: String
+    var rssi: Double
+}
+
 @objcMembers
 final class Donglesw: NSObject {
     
@@ -42,7 +48,7 @@ final class Donglesw: NSObject {
     // MARK: - Initialization Method
     override init() {
         super.init()
-     }
+    }
     
     
     var activeDevice: ActiveDevice = .DeviceDisconnected
@@ -52,9 +58,8 @@ final class Donglesw: NSObject {
     var searchMapOwnerDealerId: String = ""
     var vinExistInDealerServer: Bool = false
     var isMissingBootLoader = false
-//    var bikeInfo = BikeInfo()
     
-    // MARK:  Blooth Status
+    // MARK:  Bluetooth Status
     
     @objc func isConnected() -> Bool {
         
@@ -65,9 +70,9 @@ final class Donglesw: NSObject {
         }
     }
     
-     func isDisconnected() -> Bool {
+    func isDisconnected() -> Bool {
         
-         if Donglesw.shared.btStatus == .BtDisconnected {
+        if Donglesw.shared.btStatus == .BtDisconnected {
             return true
         }else {
             return false
@@ -76,11 +81,11 @@ final class Donglesw: NSObject {
     
     
     
-     func getActiveDevice() -> ActiveDevice {
+    func getActiveDevice() -> ActiveDevice {
         return activeDevice
     }
     
-     func setActiveDevice(activeDevice: ActiveDevice) {
+    func setActiveDevice(activeDevice: ActiveDevice) {
         self.activeDevice = activeDevice
         
         switch activeDevice {

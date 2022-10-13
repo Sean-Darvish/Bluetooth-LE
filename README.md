@@ -1,4 +1,4 @@
 #  Core Bluetooth
 
-/// BleUtil will handle all Stream activity and connection
+/// BleUtil.swift will handle all Stream activity and connection
 

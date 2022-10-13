@@ -1,9 +1,7 @@
 //
 //  CmdInfo.h
-//  Fuelpak FP3
 //
-//  Created by Mike Saradeth on 10/24/17.
-//  Copyright © 2017 Vance & Hines. All rights reserved.
+//  Created by Shahab Darvish on 10/24/19.
 //
 
 #import <Foundation/Foundation.h>

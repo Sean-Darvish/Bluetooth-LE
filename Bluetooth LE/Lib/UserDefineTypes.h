@@ -1,8 +1,7 @@
 //
 //  UserDefineTypes.h
-//  Fuelpak FP3
 //
-//  Created by Mike Saradeth on 11/1/17.
+//  Created by Shahab Darvish on 11/1/19.
 //
 
 #import <Foundation/Foundation.h>
@@ -66,8 +65,8 @@ typedef enum
 
 typedef enum
 {
-    FuelpakFp3 = 0,
-    FuelpakBle,
+    Classic = 0,
+    Ble,
     DeviceDisconnected
     
 } ActiveDevice;

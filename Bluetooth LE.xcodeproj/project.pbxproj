@@ -9,13 +9,21 @@
 /* Begin PBXBuildFile section */
 		A8F92AF428F72114002DAE35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92AF328F72114002DAE35 /* AppDelegate.swift */; };
 		A8F92AF628F72114002DAE35 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92AF528F72114002DAE35 /* SceneDelegate.swift */; };
-		A8F92AF828F72114002DAE35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92AF728F72114002DAE35 /* ViewController.swift */; };
 		A8F92AFB28F72114002DAE35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F92AF928F72114002DAE35 /* Main.storyboard */; };
 		A8F92AFD28F72116002DAE35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F92AFC28F72116002DAE35 /* Assets.xcassets */; };
 		A8F92B0028F72116002DAE35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8F92AFE28F72116002DAE35 /* LaunchScreen.storyboard */; };
 		A8F92B0B28F72116002DAE35 /* Bluetooth_LETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B0A28F72116002DAE35 /* Bluetooth_LETests.swift */; };
 		A8F92B1528F72116002DAE35 /* Bluetooth_LEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B1428F72116002DAE35 /* Bluetooth_LEUITests.swift */; };
 		A8F92B1728F72116002DAE35 /* Bluetooth_LEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B1628F72116002DAE35 /* Bluetooth_LEUITestsLaunchTests.swift */; };
+		A8F92B2528F72178002DAE35 /* BleUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2428F72178002DAE35 /* BleUtil.swift */; };
+		A8F92B2728F7248F002DAE35 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2628F7248F002DAE35 /* Constant.swift */; };
+		A8F92B2928F7260A002DAE35 /* Donglesw.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2828F7260A002DAE35 /* Donglesw.swift */; };
+		A8F92B2B28F72C34002DAE35 /* Utilsw.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2A28F72C34002DAE35 /* Utilsw.swift */; };
+		A8F92B2F28F7352E002DAE35 /* AlertDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2E28F7352E002DAE35 /* AlertDialog.swift */; };
+		A8F92B4328F7483F002DAE35 /* CmdInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B4128F7483F002DAE35 /* CmdInfo.m */; };
+		A8F92B4728F748E1002DAE35 /* UserDefineTypes.m in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B4628F748E1002DAE35 /* UserDefineTypes.m */; };
+		A8F92B4828F74A18002DAE35 /* Utilsw.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B2A28F72C34002DAE35 /* Utilsw.swift */; };
+		A8F92B4A28F74F73002DAE35 /* EXT+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F92B4928F74F73002DAE35 /* EXT+String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +47,6 @@
 		A8F92AF028F72114002DAE35 /* Bluetooth LE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bluetooth LE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F92AF328F72114002DAE35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A8F92AF528F72114002DAE35 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A8F92AF728F72114002DAE35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A8F92AFA28F72114002DAE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A8F92AFC28F72116002DAE35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8F92AFF28F72116002DAE35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,18 @@
 		A8F92B1028F72116002DAE35 /* Bluetooth LEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bluetooth LEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F92B1428F72116002DAE35 /* Bluetooth_LEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_LEUITests.swift; sourceTree = "<group>"; };
 		A8F92B1628F72116002DAE35 /* Bluetooth_LEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bluetooth_LEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A8F92B2428F72178002DAE35 /* BleUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BleUtil.swift; sourceTree = "<group>"; };
+		A8F92B2628F7248F002DAE35 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		A8F92B2828F7260A002DAE35 /* Donglesw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donglesw.swift; sourceTree = "<group>"; };
+		A8F92B2A28F72C34002DAE35 /* Utilsw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilsw.swift; sourceTree = "<group>"; };
+		A8F92B2E28F7352E002DAE35 /* AlertDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDialog.swift; sourceTree = "<group>"; };
+		A8F92B4028F747C0002DAE35 /* Bluetooth LE-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bluetooth LE-Bridging-Header.h"; sourceTree = "<group>"; };
+		A8F92B4128F7483F002DAE35 /* CmdInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CmdInfo.m; sourceTree = "<group>"; };
+		A8F92B4228F7483F002DAE35 /* CmdInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdInfo.h; sourceTree = "<group>"; };
+		A8F92B4528F748E1002DAE35 /* UserDefineTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserDefineTypes.h; sourceTree = "<group>"; };
+		A8F92B4628F748E1002DAE35 /* UserDefineTypes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserDefineTypes.m; sourceTree = "<group>"; };
+		A8F92B4928F74F73002DAE35 /* EXT+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EXT+String.swift"; sourceTree = "<group>"; };
+		A8F92B4B28F7544A002DAE35 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +98,7 @@
 		A8F92AE728F72114002DAE35 = {
 			isa = PBXGroup;
 			children = (
+				A8F92B4B28F7544A002DAE35 /* README.md */,
 				A8F92AF228F72114002DAE35 /* Bluetooth LE */,
 				A8F92B0928F72116002DAE35 /* Bluetooth LETests */,
 				A8F92B1328F72116002DAE35 /* Bluetooth LEUITests */,
@@ -101,11 +121,14 @@
 			children = (
 				A8F92AF328F72114002DAE35 /* AppDelegate.swift */,
 				A8F92AF528F72114002DAE35 /* SceneDelegate.swift */,
-				A8F92AF728F72114002DAE35 /* ViewController.swift */,
+				A8F92B4428F748CD002DAE35 /* Lib */,
+				A8F92B3028F7356C002DAE35 /* Helper */,
+				A8F92B2328F72143002DAE35 /* Utility */,
 				A8F92AF928F72114002DAE35 /* Main.storyboard */,
 				A8F92AFC28F72116002DAE35 /* Assets.xcassets */,
 				A8F92AFE28F72116002DAE35 /* LaunchScreen.storyboard */,
 				A8F92B0128F72116002DAE35 /* Info.plist */,
+				A8F92B4028F747C0002DAE35 /* Bluetooth LE-Bridging-Header.h */,
 			);
 			path = "Bluetooth LE";
 			sourceTree = "<group>";
@@ -125,6 +148,45 @@
 				A8F92B1628F72116002DAE35 /* Bluetooth_LEUITestsLaunchTests.swift */,
 			);
 			path = "Bluetooth LEUITests";
+			sourceTree = "<group>";
+		};
+		A8F92B2328F72143002DAE35 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A8F92B2428F72178002DAE35 /* BleUtil.swift */,
+				A8F92B2828F7260A002DAE35 /* Donglesw.swift */,
+				A8F92B2A28F72C34002DAE35 /* Utilsw.swift */,
+				A8F92B2628F7248F002DAE35 /* Constant.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		A8F92B3028F7356C002DAE35 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A8F92B2E28F7352E002DAE35 /* AlertDialog.swift */,
+				A8F92B4928F74F73002DAE35 /* EXT+String.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A8F92B3728F7424C002DAE35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A8F92B4228F7483F002DAE35 /* CmdInfo.h */,
+				A8F92B4128F7483F002DAE35 /* CmdInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8F92B4428F748CD002DAE35 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				A8F92B3728F7424C002DAE35 /* Model */,
+				A8F92B4528F748E1002DAE35 /* UserDefineTypes.h */,
+				A8F92B4628F748E1002DAE35 /* UserDefineTypes.m */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +257,7 @@
 				TargetAttributes = {
 					A8F92AEF28F72114002DAE35 = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1320;
 					};
 					A8F92B0528F72116002DAE35 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -258,9 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8F92AF828F72114002DAE35 /* ViewController.swift in Sources */,
+				A8F92B4728F748E1002DAE35 /* UserDefineTypes.m in Sources */,
 				A8F92AF428F72114002DAE35 /* AppDelegate.swift in Sources */,
+				A8F92B2928F7260A002DAE35 /* Donglesw.swift in Sources */,
+				A8F92B2528F72178002DAE35 /* BleUtil.swift in Sources */,
+				A8F92B2B28F72C34002DAE35 /* Utilsw.swift in Sources */,
+				A8F92B4328F7483F002DAE35 /* CmdInfo.m in Sources */,
+				A8F92B2F28F7352E002DAE35 /* AlertDialog.swift in Sources */,
 				A8F92AF628F72114002DAE35 /* SceneDelegate.swift in Sources */,
+				A8F92B4A28F74F73002DAE35 /* EXT+String.swift in Sources */,
+				A8F92B2728F7248F002DAE35 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A8F92B0B28F72116002DAE35 /* Bluetooth_LETests.swift in Sources */,
+				A8F92B4828F74A18002DAE35 /* Utilsw.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +508,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL3Y6Y39C2;
@@ -455,6 +527,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PYMK.Bluetooth-LE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bluetooth LE/Bluetooth LE-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +541,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = XL3Y6Y39C2;
@@ -483,6 +560,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.PYMK.Bluetooth-LE";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Bluetooth LE/Bluetooth LE-Bridging-Header.h";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -14,6 +14,5 @@ protocol AlertDialogDelegate {
 
 @objcMembers
 class AlertDialog {
-    
     var alertController: UIAlertController?
 }

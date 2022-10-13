@@ -1,14 +1,10 @@
 //
 //  CmdInfo.m
-//  Fuelpak FP3
 //
-//  Created by Mike Saradeth on 10/24/17.
-//  Copyright © 2017 Vance & Hines. All rights reserved.
+//  Created by Shahab DArvish on 10/24/17.
 //
 
 #import "CmdInfo.h"
-#import "FuelPak_FP4-Swift.h"
-
 
 
 @implementation CmdInfo {

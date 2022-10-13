@@ -8,5 +8,6 @@
 #ifndef Bluetooth_LE_Bridging_Header_h
 #define Bluetooth_LE_Bridging_Header_h
 
+#import "cmdInfo.h"
 
 #endif /* Bluetooth_LE_Bridging_Header_h */
